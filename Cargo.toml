@@ -1,0 +1,10 @@
+[package]
+name = "f1-led-circuit-format-data-for-board"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.0"
+chrono = "0.4.38"
+serde = {version = "1.0.203", features = ["derive"] }
+serde_derive = "1.0.203"
